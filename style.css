@@ -1,0 +1,270 @@
+* {
+    font-family: "Open Sans","OpenSans",sans-serif;
+  }
+  
+  nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    padding-left:15px;
+    height: 40px;
+  }
+  
+  nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+  }
+  
+  
+  .top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+    }
+  
+  .top-left {
+    position:absolute;
+    vertical-align:center;
+  }
+  
+  .top-links li {
+    display: inline-block;
+    margin: 0 10px;
+    padding:4px;
+   }
+  
+  
+  
+  .header {
+    background-image:url("https://www.dropbox.com/s/ptrcyq3alwuuctu/city-scape.svg?raw=1");
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-size: cover;
+    height:340px;
+    padding:15px 10px;
+    position:relative;
+    
+  }
+  
+  
+  
+  .logo-npm {
+    padding:10px;
+    display:inline-block;
+      float:left;
+    }
+  
+  .logo-bear {
+    padding:10px ;
+    display:inline-block;
+    float:right;
+    }
+  
+  .build {
+    color:white;
+  }
+  
+  
+  .search {
+    width: 700px;
+    position: relative;
+  }
+  
+  .searchTerm {
+    float: left;
+    width: 100%;
+    border: 1px solid grey;
+    padding: 5px;
+    height: 32px;
+    background:rgb(31, 82, 111);
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: white;
+  }
+  
+  .searchButton {
+    position: absolute;  
+    right: -50px;
+    width: 40px;
+    height: 44px;
+    border: 1px solid grey;
+    background: rgb(31, 82, 111);
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    }
+  
+  
+  .wrap{
+    display:inline-block;
+    width:70%;
+    position: relative;
+    padding: 10px;
+    left: 1%;
+  }
+    
+  
+  .link-btn {
+    position:relative;
+  }
+  
+  .header-text a {
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    position:relative;
+  }
+  
+  .header-text {
+    display:inline-block;
+    color: white;
+    text-decoration:none;
+    position:absolute;
+    right: 6%;
+    left:84%;
+    padding-top:20px;
+    }
+  
+  .build {
+    width:900px;
+    margin: 0 auto;
+    position:relative;
+  }
+  
+  .build-btn {
+    background-color:rgb(240, 146, 51);
+    border:none;
+    color:white;
+    padding:12px 20px;
+    text-aling:center;
+    text-decoration:none;
+    display:inline-block;
+    font-size:16px;
+    border-radius:20px;
+    margin:2em auto;
+  }
+  
+  #general-information{
+    background-color:rgb(39, 53, 71);
+    }
+  
+  #general-information img {
+    position: relative;
+    display:inline-block;
+    width:55%;
+  }
+  
+  .orgs {
+    padding: 150px;
+    }
+  
+  .orgs-text{
+    color:white;
+    display:inline-block;
+    position:relative;
+    float:right;
+    width:45%;
+    }
+  
+  .orgs h2 {
+    padding-left:75px;
+    position:relative;
+  }
+  
+  .orgs ul {
+    padding-left:90px;
+    position:relative;
+  }
+  
+  
+  
+  .orgs-btn {
+    background-color:rgb(203, 56, 55);
+    border:none;
+    color:white;
+    padding:12px 20px;
+    text-aling:center;
+    text-decoration:none;
+    font-size:16px;
+    border-radius:20px;
+    margin:2em 0 0 -105px;
+    position:relative;
+    }
+  
+  .link-orgs {
+    color:white;
+    text-decoration:none;
+  }
+  
+  #general-information p {
+    margin:2em 0 0 -105px;
+  }
+  
+  
+  #information {
+    background-image:url("https://www.dropbox.com/s/rdg42ob4n77uutu/forklift.svg?raw=1");
+  background-position:0 0;
+    background-repeat:no-repeat;
+    background-size: cover;
+    height:440px;
+    padding:35px 10px;
+    position:relative;
+  }
+  
+  .info {
+    position:absolute;
+    color:white;
+    top:20%;
+    left:15%;
+    }
+  
+  .npm-btn {
+    background-color:rgb(49, 68, 88);
+    border:none;
+    color:white;
+    padding:12px 20px;
+    text-aling:center;
+    text-decoration:none;
+    font-size:16px;
+    border-radius:20px;
+    }
+  
+  
+  #general-use .service-box {
+    width:30%;
+    float:left;
+    text-align:center;
+    margin:20px 20px;
+    position:relative;
+   }
+  
+  .container {
+    width:1200px;
+    margin:0 auto;
+    padding:75px 0;
+  }
+  
+  
+  .middle-box {
+    margin-left:5px;
+    margin-right:5px;
+  }
+  
+  #general-use a{
+    color:red;
+    text-decoration:none;
+  }
+  
+  .use-text{
+    color:grey;
+    text-align:center;
+  }
+  
+  #general-use h2 {
+    text-align:center;
+  }
