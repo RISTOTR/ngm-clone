@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700')
 * {
-    font-family: "Open Sans","OpenSans",sans-serif;
+    //margin:0;
+   // padding:0;
+    font-family: "Source Sans Pro","OpenSans",sans-serif;
+    //box-sizing: border-box;
+  }
+
+  .clearfix {
+      clear:both;
   }
   
-  nav {
-    background-color: #C12127;
+  .nav-bar {
+    background-color:#C12127;
     color: rgba(255,255,255,0.8);
     padding-top: 15px;
     padding-left:15px;
